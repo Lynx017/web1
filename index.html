@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>666</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section>
+		<img src="bg.jpg" id="bg">
+		<img src="moon.png" id="moon">
+		<img src="mountain.png" id="mountain">
+		<img src="road.png" id="road">
+		<h2 id="text">Moon Light</h2>
+	</section>
+		<div>
+            <h2>KONTOL</h2>
+            <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, unde inventore? Culpa qui nisi, dolorem natus vel quod quae maxime odio quisquam unde repellendus quam minima consequuntur laudantium iure esse.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus reprehenderit eos libero voluptas cupiditate eum impedit velit commodi mollitia ipsa. Blanditiis ut facilis et numquam possimus, error provident ad molestias!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, maiores. Sit aut delectus sed reprehenderit, odio ipsa error quasi facere, sunt quibusdam perferendis quo quos provident, aperiam laudantium tenetur cupiditate?<br>
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde delectus illo explicabo. Ipsum repellat iste sint mollitia eligendi odio suscipit officia qui nihil, ipsam animi provident molestias, molestiae unde reprehenderit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem maiores, voluptates modi iste odio perferendis id voluptatum molestias praesentium corrupti vero. Et, harum nostrum? Omnis porro recusandae mollitia neque est.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus minus beatae minima. Quidem cupiditate quos alias dignissimos laboriosam ratione, fugiat beatae commodi quibusdam esse expedita sunt deserunt maxime minus <br>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, neque dicta animi numquam sed necessitatibus fugiat autem hic consequatur sunt, aperiam obcaecati, modi odio incidunt reprehenderit provident voluptatibus deserunt dignissimos!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quia, cupiditate facere dignissimos perferendis tempora fugit maiores? Dolore animi, nemo quis magni in voluptatem fuga optio esse id modi delectus.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum repudiandae fugiat repellendus, nam assumenda quis sit officia doloremque itaque illum quam inventore voluptatum obcaecati eaque rem maiores facilis totam. Neque?<br>
+        </p>
+        </div>
+	<footer>
+		<ul class="social_icon">
+            <li><a href="https://www.facebook.com/profile.php?id=100025547831088"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/kyy.666/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="https://www.youtube.com/channel/UCRLDMIZONSMut0J4qIPfUMA"><ion-icon name="logo-youtube"></ion-icon></a></li>
+            <li><a href="https://www.tiktok.com/@chill_grll"><ion-icon name="logo-tiktok"></ion-icon></a></li>
+		</ul>
+	</footer>
+	<footer>
+		<p>© Copyright Kyy. All Rights Reserved</p>
+	</footer>
+	<footer>
+		<p>Designed By<a href="https://rizkymu5t4ngk1ng.wixsite.com/kyy17"> kyy</a></p>
+	</footer>
+	<script type="text/javascript">
+		let bg = document.getElementById("bg");
+		let moon = document.getElementById("moon");
+		let mountain = document.getElementById("mountain");
+		let road = document.getElementById("road");
+		let text = document.getElementById("text");
+
+		window.addEventListener('scroll', function(){
+			var value = window.scrollY;
+
+			bg.style.top = value * 0.5 + 'px';
+			moon.style.left = -value * 0.5 + 'px';
+			mountain.style.top = -value * 0.15 + 'px';
+			road.style.top = value * 0.15 + 'px';
+			text.style.top = value * 1 + 'px';
+		})
+	</script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
